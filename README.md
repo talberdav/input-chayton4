@@ -1,2 +1,2 @@
 # Input
-Input Practice in Comp Sci I
+A lesson to teach file input and GitHub from Netbeans
