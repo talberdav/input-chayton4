@@ -24,16 +24,16 @@ public class Input {
           Scanner scan = new Scanner(new File("stuff.txt"));
           
           // Create an Array
-          String[] arr = new String[5];
+          String[] stringArr = new String[5];
           
           // Take input line-by-line and store it in arr[]
-          arr[0] = scan.nextLine();
-          arr[1] = scan.nextLine();
-          arr[2] = scan.nextLine();
-          arr[3] = scan.nextLine();
-          arr[4] = scan.nextLine();
+          stringArr[0] = scan.nextLine();
+          stringArr[1] = scan.nextLine();
+          stringArr[2] = scan.nextLine();
+          stringArr[3] = scan.nextLine();
+          stringArr[4] = scan.nextLine();
           
-          out.printf("%s %s %s %s %s", arr[0], arr[1], arr[2], arr[3], arr[4]);
+          out.printf("%s %s %s %s %s", stringArr[0], stringArr[1], stringArr[2], stringArr[3], stringArr[4]);
           
           
           
